@@ -8,7 +8,21 @@
 O projeto foi criado utilizando o **MATLAB R2023b**.
 
 ## Requisitos
- - [ ] ...
+
+### Perceptron
+
+Implementar rede neural Perceptron para a porta lógica **OU**.
+
+ - [ ] Usar valores iniciais aleatórios
+ - [ ] O programa deverá exibir os pontos $(0,0), (0,1), (1,0)$ e $(1,1)$ bem como a reta formada após o treinamento `(6,0 pontos)`
+
+### MLP
+
+Classifique o conjunto de dados Vertebral Column Data set (disponível em
+[https://archive.ics.uci.edu/ml/datasets/Vertebral+Column](https://archive.ics.uci.edu/ml/datasets/Vertebral+Column) em três classes `(normal, disk hernia e spondilolysthesis)` usando uma rede neural MLP. 
+
+- [ ] Utilizar a estratégia de validação hold-out (70% das amostras para treino e o restante para teste)
+  - [ ] efetue 10  _execuções (permutar as amostras do conjunto de dados em cada execução)._ O resultado deve ser a acurácia média
 
 A descrição completa do projeto e seus requisitos podem ser encontradas em [Descrição do Projeto.pdf](./Descric%CC%A7a%CC%83o%20do%20Projeto.pdf);
 
