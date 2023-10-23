@@ -6,6 +6,7 @@
 
  ## Execução
 O projeto foi criado utilizando o **MATLAB R2023b**.
+  - _O arquivo principal do projeto referente ao perceptron é o [perceptron.m](perceptron.m)._
 
 ## Requisitos
 
@@ -13,8 +14,8 @@ O projeto foi criado utilizando o **MATLAB R2023b**.
 
 Implementar rede neural Perceptron para a porta lógica **OU**.
 
- - [ ] Usar valores aleatórios para os pesos iniciais do Perceptron
- - [ ] O programa deverá exibir os pontos $(0,0), (0,1), (1,0)$ e $(1,1)$ bem como a reta formada após o treinamento `(6,0 pontos)`
+ - [X] Usar valores aleatórios para os pesos iniciais do Perceptron
+ - [X] O programa deverá exibir os pontos $(0,0), (0,1), (1,0)$ e $(1,1)$ bem como a reta formada após o treinamento `(6,0 pontos)`
 
 ### MLP
 
@@ -27,6 +28,12 @@ _É permitido usar funções prontas para o MLP._
   - [ ] efetue 10  _execuções (permutar as amostras do conjunto de dados em cada execução)._ O resultado deve ser a acurácia média
 
 A descrição completa do projeto e seus requisitos podem ser encontradas em [Descrição do Projeto.pdf](./Descric%CC%A7a%CC%83o%20do%20Projeto.pdf);
+
+## Demo
+
+### Perceptron
+
+![Rede neural perceptron em funcionamento](demo/perceptron.png)
 
 ## Autores
 
